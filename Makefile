@@ -11,6 +11,19 @@ deps:
 build:
 	@go install .
 
+.PHONY: publish
+publish:
+	@go install .
+	npm i
+	export PATH=$PATH:`pwd`/node_modules/.bin
+	PROTOC_GEN_TS_PATH="./node_modules/.bin/protoc-gen-ts" protoc \
+		--proto_path ./pagination \
+		-I=./pagination \
+		./pagination/pagination.proto \
+		--go_out=./pagination/ \
+		--js_out="import_style=commonjs,binary:./pagination" \
+		--ts_out="./pagination"
+
 .PHONY: test
 test:
 	protoc \

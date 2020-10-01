@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package pagination;
+
+option go_package = ".;pagination";
+
+message PaginationOptions {
+  string before = 1;
+  string after = 2;
+  int32 limit = 3;
+}
+
+message Connection {
+  int32 totalCount = 1;
+  PageInfo pageInfo = 2;
+}
+
+message PageInfo {
+  string endCursor = 1;
+  bool hasNextPage = 2;
+}

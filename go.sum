@@ -210,6 +210,8 @@ github.com/kitt-technology/go-grpc/iam v0.0.0-20200316105640-878bde10af67/go.mod
 github.com/kitt-technology/kitt v0.0.0-20200429154750-00904228d43b h1:fguyWT6UAZfHf9eqAM0YQMwo2QUaAcBaWeZumH98ZXI=
 github.com/kitt-technology/kitt/lib/go v0.0.0-20200429154750-00904228d43b h1:hln0J11S6CKAJPEhzxkohtLVbwtyYaA1Xy9aISVZHug=
 github.com/kitt-technology/kitt/lib/go v0.0.0-20200429154750-00904228d43b/go.mod h1:OmOxcmD1MQc4Kf3bnL91EiMK1HV3BJE4GR299sjgSAo=
+github.com/kitt-technology/protoc-gen-auth v0.0.22 h1:gjzmPKfXIH0/OIfR7cHM/DlhjEX/hGx1p7N7YDOS5R8=
+github.com/kitt-technology/protoc-gen-auth v0.0.22/go.mod h1:K2hcwkfnChdQ1/iW8pKdog3Nwtvh4Lh/2keNkPEBr7I=
 github.com/klauspost/compress v1.8.2/go.mod h1:RyIbtBH6LamlWaDj8nUwkbUhJ87Yi3uG0guNDohfE1A=
 github.com/klauspost/compress v1.9.0/go.mod h1:RyIbtBH6LamlWaDj8nUwkbUhJ87Yi3uG0guNDohfE1A=
 github.com/klauspost/cpuid v1.2.1/go.mod h1:Pj4uuM528wm8OyEC2QMXAi2YiTZ96dNQPGgoMS4s3ek=

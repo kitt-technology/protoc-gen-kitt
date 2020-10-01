@@ -1,0 +1,22 @@
+{
+  "name": "kitt/protobuf",
+  "version": "1.0.0",
+  "description": "[![CircleCI](https://circleci.com/gh/kitt-technology/protoc-gen-auth.svg?style=svg)](https://circleci.com/gh/kitt-technology/protoc-gen-auth)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitt-technology/protoc-gen-pagination.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kitt-technology/protoc-gen-pagination/issues"
+  },
+  "homepage": "https://github.com/kitt-technology/protoc-gen-pagination#readme",
+  "dependencies": {
+    "ts-protoc-gen": "^0.13.0"
+  }
+}
